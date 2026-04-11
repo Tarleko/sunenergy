@@ -1,8 +1,13 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
 header {
 	background-color: #ebebeb;
 	text-align: center;
 }
 
-body {
-	font-family: "Roboto", sans-serif;
+footer {
+	background-color: #ebebeb;
+	text-align: center;
 }
