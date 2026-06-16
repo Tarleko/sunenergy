@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunRise | Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo"><a href="index.html"><span class="logo-icon"><i class="fas fa-sun"></i></span><span class="logo-text">Sun<span class="accent">Rise</span></span></a></div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="portfolio.html" class="active">Портфолио</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="subsidies.html">Субсидии</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="burger"><span></span><span></span><span></span></div>
+            </nav>
+            <div class="header-contacts">
+                <a href="tel:+74951234567" class="phone"><i class="fas fa-phone-alt"></i> +7 (495) 123-45-67</a>
+                <a href="mailto:sunrise@mail.com" class="email"><i class="fas fa-envelope"></i> sunrise@mail.com</a>
+            </div>
+        </div>
+    </header>
+    <main class="portfolio-page">
+        <div class="container">
+            <h1 class="page-title">Реализованные проекты</h1>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="house">Частные дома</button>
+                <button class="filter-btn" data-filter="business">Бизнес</button>
+                <button class="filter-btn" data-filter="housing">ЖКХ</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-col"><div class="logo"><span class="logo-icon"><i class="fas fa-sun"></i></span><span class="logo-text">Sun<span class="accent">Rise</span></span></div><p>Солнечная энергия для устойчивого будущего.</p><div class="socials"><a href="#"><i class="fab fa-vk"></i></a><a href="#"><i class="fab fa-telegram"></i></a><a href="#"><i class="fab fa-youtube"></i></a></div></div>
+            <div class="footer-col"><h4>Навигация</h4><ul><li><a href="index.html">Главная</a></li><li><a href="portfolio.html">Портфолио</a></li><li><a href="blog.html">Блог</a></li><li><a href="subsidies.html">Субсидии</a></li><li><a href="contacts.html">Контакты</a></li></ul></div>
+            <div class="footer-col"><h4>Контакты</h4><p><i class="fas fa-phone-alt"></i> +7 (495) 123-45-67</p><p><i class="fas fa-envelope"></i> sunrise@mail.com</p><p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Энергетиков, 15</p></div>
+            <div class="footer-col"><h4>Политика</h4><ul><li><a href="#">Политика конфиденциальности</a></li><li><a href="#">Пользовательское соглашение</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="container"><p>&copy; 2026 SunRise. Все права защищены.</p></div></div>
+    </footer>
+    <a href="https://wa.me/74951234567" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <div id="modal" class="modal"><div class="modal-content"><span class="close-modal">&times;</span><div id="modal-body"></div></div></div>
+    <script src="script.js"></script>
+</body>
+</html>
