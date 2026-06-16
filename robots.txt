@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /article1/
 Disallow: /article2/
 
-Sitemap: https://https://tarleko.github.io/sunenergy/sitemap.xml
+Sitemap: https://tarleko.github.io/sunenergy/sitemap.xml
